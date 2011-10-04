@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, StreamingTestActivity!</string>
+    <string name="app_name">StreamingTest</string>
+    <string name="testsong_20_sec">http://www.hrupin.com/wp-content/uploads/mp3/testsong_20_sec.mp3</string>
+</resources>

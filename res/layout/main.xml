@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android" 
+	android:layout_width="fill_parent" 
+	android:layout_height="fill_parent" 
+	android:focusable="true">
+	<EditText 
+		android:text="The song URL" 
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content" 
+		android:id="@+id/EditTextSongURL"/>	
+	<ImageButton 
+		android:layout_below="@+id/EditTextSongURL"
+		android:id="@+id/ButtonTestPlayPause" 
+		android:layout_height="wrap_content" 
+		android:layout_width="match_parent"
+		android:src="@drawable/button_play"/>
+	<SeekBar 
+		android:layout_below="@+id/ButtonTestPlayPause"
+		android:id="@+id/SeekBarTestPlay" 
+		android:layout_height="wrap_content" 
+		android:layout_width="match_parent"
+		android:thumb="@drawable/thumb_transparent"/>
+</RelativeLayout>
